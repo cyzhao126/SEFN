@@ -15,7 +15,7 @@ $ conda activate SEFN
 ```
 $ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 ```
-3. Install other dependency
+3、 Install other dependency
 ```
 $ pip install -r requirements.txt
 ```
