@@ -19,3 +19,7 @@ $ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolk
 ```
 $ pip install -r requirements.txt
 ```
+
+## Dataset
+
+For data preparation of VideoPipe, we follow the dataset used in "Regularizing Nighttime Weirdness: Efficient Self-supervised Monocular Depth Estimation in the Dark" |[pdf](https://arxiv.org/pdf/2210.11158), [github](https://videopipe.github.io/)|. 
