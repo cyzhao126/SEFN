@@ -30,7 +30,7 @@ Our split files for $\tau_{cls}$ and $\tau_{ood}$ are provided in `/data`.
 ## Train 
 The implementation of video swin transformer is based on MMAction2 project |[github](https://github.com/open-mmlab/mmaction2)|. The config file of this work could be found at `/configs`, config files show all detailed settings of the model. Some code designed for SEFN are provide in `/mmaction`, which should overwrit its source files after downloading mmaction project.
 
-1. Downloading the pretrained model from MMAction2 project and put it under the directory `/data`. The model we used is "swin_base_patch244_window877_kinetics600_22k.pth".
+1. Download the pretrained model from MMAction2 project and put it under the directory `/data`. The model we used is "swin_base_patch244_window877_kinetics600_22k.pth".
 2. Train a model for $\tau_{cls}$ with 2 GPUs, by
 
    ```shell
