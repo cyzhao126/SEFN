@@ -26,7 +26,7 @@ For data preparation of VideoPipe, we follow the dataset used in "VideoPipe Chal
 
 
 Our split files for $\tau_{cls}$ and $\tau_{ood}$ are provided in `/datasets`.
-The implementation of video swin transformer is based on MMAction2 project. The config file of this work could be found at `/configs`, config files show all detailed settings of the model.
+The implementation of video swin transformer is based on MMAction2 project. The config file of this work could be found at `/configs`, config files show all detailed settings of the model. Some code designed for SEFN are provide in `/mmaction`, which can be overwritten or pasted from its source files.
 ## Train 
 1. For 
 2. Train a self-supervised model on daytime data, by
