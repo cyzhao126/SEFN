@@ -1,4 +1,4 @@
-# SEFN：Segment-aware Evidential Fusion Network for Trustworthy Video Sewer Defect Classification （ICRA 2024）
+# SEFN：Segment-aware Evidential Fusion Network for Trustworthy Video Sewer Defect Classification （submitted to ICRA 2024）
 
 ## Introduction
 
