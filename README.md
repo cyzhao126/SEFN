@@ -22,4 +22,7 @@ $ pip install -r requirements.txt
 
 ## Dataset
 
-For data preparation of VideoPipe, we follow the dataset used in "Regularizing Nighttime Weirdness: Efficient Self-supervised Monocular Depth Estimation in the Dark" |[pdf](https://arxiv.org/pdf/2210.11158), [github](https://videopipe.github.io/)|. 
+For data preparation of VideoPipe, we follow the dataset used in "VideoPipe Challenge @ ICPR2022，Challenge on Real-World Video Understanding for Urban Pipe Inspection" |[pdf](https://arxiv.org/pdf/2210.11158), [github](https://videopipe.github.io/)|. You can use the above official link to download VideoPipe dataset, since the annotations of testing set are not public, we conduct the experiments focused on the training and validation sets. 
+
+
+Our split files for $\tau_{cls}$ and $\tau_{ood}$ are provided in `/datasets`.
